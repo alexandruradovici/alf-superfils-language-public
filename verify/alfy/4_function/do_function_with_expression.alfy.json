@@ -1,0 +1,72 @@
+{
+  "type": "script",
+  "statements": [
+    {
+      "type": "valueof",
+      "function": {
+        "id": "print",
+        "library": []
+      },
+      "parameters": {
+        "additional": {
+          "type": "value",
+          "t": "string",
+          "value": " text ",
+          "line": 3
+        },
+        "text": {
+          "type": "expression",
+          "op": "+",
+          "left": {
+            "type": "expression",
+            "op": "+",
+            "left": {
+              "type": "expression",
+              "op": "+",
+              "left": {
+                "type": "expression",
+                "op": "+",
+                "left": {
+                  "type": "value",
+                  "t": "string",
+                  "value": "text",
+                  "line": 3
+                },
+                "right": {
+                  "type": "value",
+                  "t": "symbol",
+                  "value": " ",
+                  "line": 3
+                },
+                "line": 3
+              },
+              "right": {
+                "type": "value",
+                "t": "string",
+                "value": "to",
+                "line": 3
+              },
+              "line": 3
+            },
+            "right": {
+              "type": "value",
+              "t": "symbol",
+              "value": " ",
+              "line": 3
+            },
+            "line": 3
+          },
+          "right": {
+            "type": "value",
+            "t": "string",
+            "value": "write",
+            "line": 3
+          },
+          "line": 3
+        }
+      },
+      "line": 3
+    }
+  ],
+  "line": 3
+}

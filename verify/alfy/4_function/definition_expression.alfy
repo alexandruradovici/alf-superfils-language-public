@@ -1,0 +1,7 @@
+{Function definition with expression}
+
+
+define sum | n1 => int 
+			 n2 => int 
+			value int as n1+n2;
+

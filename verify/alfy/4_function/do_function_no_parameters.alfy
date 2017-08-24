@@ -1,0 +1,3 @@
+{Use function without parameters}
+
+do getpid;

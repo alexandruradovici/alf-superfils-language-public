@@ -1,0 +1,23 @@
+{
+  "type": "script",
+  "statements": [
+    {
+      "type": "define",
+      "elements": [
+        {
+          "id": "auto",
+          "type": "",
+          "value": {
+            "type": "value",
+            "t": "int",
+            "value": 5,
+            "line": 2
+          },
+          "line": 2
+        }
+      ],
+      "line": 2
+    }
+  ],
+  "line": 3
+}

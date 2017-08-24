@@ -1,0 +1,256 @@
+{
+  "type": "script",
+  "statements": [
+    {
+      "type": "define_function",
+      "id": "prime",
+      "parameters": [
+        {
+          "id": "n",
+          "type": "int",
+          "line": 3
+        }
+      ],
+      "value_type": "logic",
+      "statements": [
+        {
+          "type": "define",
+          "elements": [
+            {
+              "id": "p",
+              "type": "logic",
+              "value": {
+                "type": "value",
+                "t": "logic",
+                "value": true,
+                "line": 5
+              },
+              "line": 5
+            }
+          ],
+          "line": 5
+        },
+        {
+          "type": "for",
+          "variable": "i",
+          "from": {
+            "type": "value",
+            "t": "int",
+            "value": 2,
+            "line": 7
+          },
+          "direction": "to",
+          "to": {
+            "type": "valueof",
+            "function": {
+              "id": "sqrt",
+              "library": []
+            },
+            "parameters": {
+              "number": {
+                "type": "id",
+                "value": "n",
+                "line": 7
+              }
+            },
+            "line": 7
+          },
+          "step": {
+            "type": "value",
+            "t": "int",
+            "value": 1,
+            "line": 7
+          },
+          "statements": [
+            {
+              "type": "if",
+              "expression": {
+                "type": "expression",
+                "op": "=",
+                "left": {
+                  "type": "expression",
+                  "op": "mod",
+                  "left": {
+                    "type": "id",
+                    "value": "n",
+                    "line": 8
+                  },
+                  "right": {
+                    "type": "id",
+                    "value": "i",
+                    "line": 8
+                  },
+                  "line": 8
+                },
+                "right": {
+                  "type": "value",
+                  "t": "int",
+                  "value": 0,
+                  "line": 8
+                },
+                "line": 8
+              },
+              "then": [
+                {
+                  "type": "attribution",
+                  "to": {
+                    "type": "id",
+                    "value": "p",
+                    "line": 9
+                  },
+                  "from": {
+                    "type": "value",
+                    "t": "logic",
+                    "value": false,
+                    "line": 9
+                  },
+                  "line": 9
+                }
+              ],
+              "line": 10
+            }
+          ],
+          "line": 11
+        },
+        {
+          "type": "value_of_function",
+          "value": {
+            "type": "id",
+            "value": "p",
+            "line": 13
+          },
+          "line": 13
+        }
+      ],
+      "line": 14
+    },
+    {
+      "type": "define",
+      "elements": [
+        {
+          "id": "v",
+          "type": "int",
+          "line": 16
+        }
+      ],
+      "line": 16
+    },
+    {
+      "type": "attribution",
+      "to": {
+        "type": "id",
+        "value": "v",
+        "line": 18
+      },
+      "from": {
+        "type": "valueof",
+        "function": {
+          "id": "read",
+          "library": []
+        },
+        "parameters": {},
+        "line": 18
+      },
+      "line": 18
+    },
+    {
+      "type": "for",
+      "variable": "i",
+      "from": {
+        "type": "id",
+        "value": "v",
+        "line": 20
+      },
+      "direction": "to",
+      "to": {
+        "type": "value",
+        "t": "int",
+        "value": 2,
+        "line": 20
+      },
+      "step": {
+        "type": "expression",
+        "op": "negative",
+        "value": {
+          "type": "value",
+          "t": "int",
+          "value": 1,
+          "line": 20
+        },
+        "line": 20
+      },
+      "statements": [
+        {
+          "type": "if",
+          "expression": {
+            "type": "valueof",
+            "function": {
+              "id": "prime",
+              "library": []
+            },
+            "parameters": {
+              "n": {
+                "type": "id",
+                "value": "i",
+                "line": 21
+              }
+            },
+            "line": 21
+          },
+          "then": [
+            {
+              "type": "valueof",
+              "function": {
+                "id": "write",
+                "library": []
+              },
+              "parameters": {
+                "text": {
+                  "type": "expression",
+                  "op": "+",
+                  "left": {
+                    "type": "expression",
+                    "op": "+",
+                    "left": {
+                      "type": "expression",
+                      "op": "+",
+                      "left": {
+                        "type": "value",
+                        "t": "string",
+                        "value": "The smallest prime number less than ",
+                        "line": 22
+                      },
+                      "right": {
+                        "type": "id",
+                        "value": "v",
+                        "line": 22
+                      },
+                      "line": 22
+                    },
+                    "right": {
+                      "type": "value",
+                      "t": "string",
+                      "value": " is ",
+                      "line": 22
+                    },
+                    "line": 22
+                  },
+                  "right": {
+                    "type": "id",
+                    "value": "i",
+                    "line": 22
+                  },
+                  "line": 22
+                }
+              },
+              "line": 22
+            }
+          ],
+          "line": 23
+        }
+      ],
+      "line": 24
+    }
+  ],
+  "line": 24
+}

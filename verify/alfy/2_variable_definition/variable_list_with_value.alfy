@@ -1,0 +1,5 @@
+{Variable definition list with value}
+define n => int is 3
+	r => real is 3.7
+	l => logic is false
+	s => string is "string";

@@ -1,0 +1,9 @@
+{
+  "error": "syntax",
+  "line": 8,
+  "text": "to",
+  "token": "DIRECTION",
+  "expected": [
+    "'TO'"
+  ]
+}

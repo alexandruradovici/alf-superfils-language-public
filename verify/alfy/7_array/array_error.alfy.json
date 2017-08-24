@@ -1,0 +1,9 @@
+{
+  "error": "syntax",
+  "line": 3,
+  "text": "s",
+  "token": "IDENTIFIER",
+  "expected": [
+    "'INTEGER_NUMBER'"
+  ]
+}

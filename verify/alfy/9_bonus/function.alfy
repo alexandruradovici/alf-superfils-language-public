@@ -1,0 +1,5 @@
+{Function}
+
+[register write do print with text is ]
+
+write "Text" parameters;

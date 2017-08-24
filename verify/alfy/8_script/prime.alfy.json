@@ -1,0 +1,199 @@
+{
+  "type": "script",
+  "statements": [
+    {
+      "type": "define",
+      "elements": [
+        {
+          "id": "n",
+          "type": "int",
+          "line": 3
+        }
+      ],
+      "line": 3
+    },
+    {
+      "type": "attribution",
+      "to": {
+        "type": "id",
+        "value": "n",
+        "line": 5
+      },
+      "from": {
+        "type": "valueof",
+        "function": {
+          "id": "read",
+          "library": []
+        },
+        "parameters": {},
+        "line": 5
+      },
+      "line": 5
+    },
+    {
+      "type": "define",
+      "elements": [
+        {
+          "id": "p",
+          "type": "logic",
+          "value": {
+            "type": "value",
+            "t": "logic",
+            "value": true,
+            "line": 7
+          },
+          "line": 7
+        }
+      ],
+      "line": 7
+    },
+    {
+      "type": "for",
+      "variable": "i",
+      "from": {
+        "type": "value",
+        "t": "int",
+        "value": 2,
+        "line": 9
+      },
+      "direction": "to",
+      "to": {
+        "type": "valueof",
+        "function": {
+          "id": "sqrt",
+          "library": []
+        },
+        "parameters": {
+          "number": {
+            "type": "id",
+            "value": "n",
+            "line": 9
+          }
+        },
+        "line": 9
+      },
+      "step": {
+        "type": "value",
+        "t": "int",
+        "value": 1,
+        "line": 9
+      },
+      "statements": [
+        {
+          "type": "if",
+          "expression": {
+            "type": "expression",
+            "op": "=",
+            "left": {
+              "type": "expression",
+              "op": "mod",
+              "left": {
+                "type": "id",
+                "value": "n",
+                "line": 10
+              },
+              "right": {
+                "type": "id",
+                "value": "i",
+                "line": 10
+              },
+              "line": 10
+            },
+            "right": {
+              "type": "value",
+              "t": "int",
+              "value": 0,
+              "line": 10
+            },
+            "line": 10
+          },
+          "then": [
+            {
+              "type": "attribution",
+              "to": {
+                "type": "id",
+                "value": "p",
+                "line": 11
+              },
+              "from": {
+                "type": "value",
+                "t": "logic",
+                "value": false,
+                "line": 11
+              },
+              "line": 11
+            }
+          ],
+          "line": 12
+        }
+      ],
+      "line": 13
+    },
+    {
+      "type": "if",
+      "expression": {
+        "type": "id",
+        "value": "p",
+        "line": 15
+      },
+      "then": [
+        {
+          "type": "valueof",
+          "function": {
+            "id": "write",
+            "library": []
+          },
+          "parameters": {
+            "text": {
+              "type": "expression",
+              "op": "+",
+              "left": {
+                "type": "id",
+                "value": "n",
+                "line": 16
+              },
+              "right": {
+                "type": "value",
+                "t": "string",
+                "value": " is prime",
+                "line": 16
+              },
+              "line": 16
+            }
+          },
+          "line": 16
+        }
+      ],
+      "else": [
+        {
+          "type": "valueof",
+          "function": {
+            "id": "write",
+            "library": []
+          },
+          "parameters": {
+            "text": {
+              "type": "expression",
+              "op": "+",
+              "left": {
+                "type": "id",
+                "value": "n",
+                "line": 18
+              },
+              "right": {
+                "type": "value",
+                "t": "string",
+                "value": " is not prime",
+                "line": 18
+              },
+              "line": 18
+            }
+          },
+          "line": 18
+        }
+      ],
+      "line": 19
+    }
+  ],
+  "line": 19
+}

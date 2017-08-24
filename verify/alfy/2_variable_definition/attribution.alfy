@@ -1,0 +1,4 @@
+{Variable value Attribution}
+define n => int;
+
+n is 6;

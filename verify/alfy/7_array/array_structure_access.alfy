@@ -1,0 +1,12 @@
+{Array with structure definition}
+struct school
+	define name => string,
+	define private => logic,
+	define type => int
+end;
+
+array list of school from 1 to 9;
+
+define list_of_schools => list;
+
+list_of_schools(1) element name is "School";

@@ -1,0 +1,24 @@
+{Prime less then a number}
+
+define prime | n => int value logic as
+begin
+	define p => logic is true;
+
+	for i from 2 to valueof sqrt with number is n parameters step 1 run
+		if n mod i = 0 then
+			p is false;
+		end;
+	end;
+
+	value p;
+end;
+
+define v => int;
+
+v is valueof read;
+
+for i from v to 2 step -1 run
+	if valueof prime with n is i parameters then
+		do write with text is "The smallest prime number less than "+v+" is "+i parameters;
+	end;
+end;

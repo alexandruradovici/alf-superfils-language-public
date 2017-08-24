@@ -1,0 +1,6 @@
+{Structure definition with values}
+struct school
+	define name => string is "Public Elementary School",
+	define private => logic is false,
+	define type => int is 0
+end;

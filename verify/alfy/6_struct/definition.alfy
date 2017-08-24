@@ -1,0 +1,6 @@
+{Structure definition}
+struct school
+	define name => string,
+	define private => logic,
+	define type => int
+end;

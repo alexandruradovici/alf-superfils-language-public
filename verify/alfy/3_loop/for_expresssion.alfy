@@ -1,0 +1,9 @@
+{For loop with expression}
+
+define n => int is 0;
+define s => int is 1;
+define max => int is 2*n;
+
+for i from n/2 to max step s run 
+	n is n + 1;
+end;

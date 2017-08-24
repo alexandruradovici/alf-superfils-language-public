@@ -1,0 +1,11 @@
+{
+  "error": "syntax",
+  "line": 3,
+  "text": "n",
+  "token": "IDENTIFIER",
+  "expected": [
+    "'OF_TYPE'",
+    "'IS'",
+    "'|'"
+  ]
+}

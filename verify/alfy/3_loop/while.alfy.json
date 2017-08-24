@@ -1,0 +1,70 @@
+{
+  "type": "script",
+  "statements": [
+    {
+      "type": "define",
+      "elements": [
+        {
+          "id": "n",
+          "type": "int",
+          "value": {
+            "type": "value",
+            "t": "int",
+            "value": 0,
+            "line": 3
+          },
+          "line": 3
+        }
+      ],
+      "line": 3
+    },
+    {
+      "type": "while",
+      "expression": {
+        "type": "expression",
+        "op": "<",
+        "left": {
+          "type": "id",
+          "value": "n",
+          "line": 5
+        },
+        "right": {
+          "type": "value",
+          "t": "int",
+          "value": 100,
+          "line": 5
+        },
+        "line": 5
+      },
+      "statements": [
+        {
+          "type": "attribution",
+          "to": {
+            "type": "id",
+            "value": "n",
+            "line": 6
+          },
+          "from": {
+            "type": "expression",
+            "op": "+",
+            "left": {
+              "type": "id",
+              "value": "n",
+              "line": 6
+            },
+            "right": {
+              "type": "value",
+              "t": "int",
+              "value": 1,
+              "line": 6
+            },
+            "line": 6
+          },
+          "line": 6
+        }
+      ],
+      "line": 7
+    }
+  ],
+  "line": 7
+}

@@ -1,0 +1,18 @@
+{Power function}
+
+define power | a => int 
+			   n => int 
+			  value int as
+begin
+	define p => int is 1;
+	for i from 1 to n step 1 run
+		p is p * a;
+	end;
+	value a;
+end;
+
+define n is 0;
+
+n is valueof power with a is 6 n is 5 parameters;
+
+

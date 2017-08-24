@@ -1,0 +1,6 @@
+{Access element of array with function}
+array list of string from 1 to 9;
+
+define v => list;
+
+v(valueof position) is "The new name for the school";

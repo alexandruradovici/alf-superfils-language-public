@@ -1,0 +1,11 @@
+{Function definition with statements and value}
+
+
+define sum | n1 => int 
+			 n2 => int 
+			value int as
+begin
+	define s => int is n1 + n2;
+	value s;
+end;
+

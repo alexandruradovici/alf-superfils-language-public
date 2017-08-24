@@ -1,0 +1,7 @@
+{If then}
+
+[register P 1]
+
+[if P = 1]
+valueof print with text is "Print text "+P parameters;
+[endif]

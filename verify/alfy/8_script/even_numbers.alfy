@@ -1,0 +1,19 @@
+{Event numbers from 1 to 1000}
+
+define n is 2;
+
+for n from 2 to 1000 step 2 run
+	do write with text is n parameters;
+end;
+
+while n <= 1000 run
+	do write with text is n parameters;
+	n is n + 2;
+end;
+
+n is 2;
+
+repeat
+	do write with text is n parameters;
+	n is n + 2;
+aslongas n <= 1000;

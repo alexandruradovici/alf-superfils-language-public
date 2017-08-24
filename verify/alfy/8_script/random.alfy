@@ -1,0 +1,10 @@
+{Random number}
+
+define n => int;
+
+repeat
+	n is valueof random with start is 1 upto is 100 parameters;
+	if n != 0 then
+		do write with text is n parameters;
+	end;
+aslongas n != 0;

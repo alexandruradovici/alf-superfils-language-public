@@ -1,0 +1,9 @@
+{If}
+
+define n => int;
+
+if (n > 2) then
+	n is n + 1;
+else
+	n is n * 1;
+end;

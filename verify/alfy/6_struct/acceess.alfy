@@ -1,0 +1,10 @@
+{Access element of struct}
+struct school
+	define name => string,
+	define private => logic,
+	define type => int
+end;
+
+define s => school;
+
+s element name is "The new name for the school";

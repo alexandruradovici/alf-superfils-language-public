@@ -1,0 +1,7 @@
+{While loop}
+
+define n => int is 0;
+
+while n < 100 run 
+	n is n + 1;
+end;

@@ -1,0 +1,30 @@
+{
+  "error": "syntax",
+  "line": 1,
+  "text": "",
+  "token": "EOF",
+  "expected": [
+    "'DEFINE'",
+    "'IDENTIFIER'",
+    "'VALUE'",
+    "'VALUE_OF'",
+    "'FOR'",
+    "'WHILE'",
+    "'REPEAT'",
+    "'IF'",
+    "'EMPTY'",
+    "'ARRAY'",
+    "'INTEGER_NUMBER'",
+    "'STRUCT'",
+    "'('",
+    "'-'",
+    "'FLOAT_NUMBER'",
+    "'STRING_VALUE'",
+    "'FALSE'",
+    "'TRUE'",
+    "'NOT'",
+    "';'",
+    "'USE'",
+    "'BEGIN'"
+  ]
+}

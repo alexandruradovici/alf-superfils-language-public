@@ -1,0 +1,5 @@
+{Expression}
+
+[register PI_2 3.14/2]
+
+do print with text is PI_2+" is PI/2" parameters;

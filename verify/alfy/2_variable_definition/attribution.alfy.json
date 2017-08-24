@@ -1,0 +1,32 @@
+{
+  "type": "script",
+  "statements": [
+    {
+      "type": "define",
+      "elements": [
+        {
+          "id": "n",
+          "type": "int",
+          "line": 2
+        }
+      ],
+      "line": 2
+    },
+    {
+      "type": "attribution",
+      "to": {
+        "type": "id",
+        "value": "n",
+        "line": 4
+      },
+      "from": {
+        "type": "value",
+        "t": "int",
+        "value": 6,
+        "line": 4
+      },
+      "line": 4
+    }
+  ],
+  "line": 5
+}

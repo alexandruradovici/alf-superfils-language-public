@@ -1,0 +1,32 @@
+{
+  "type": "script",
+  "statements": [
+    {
+      "type": "define",
+      "elements": [
+        {
+          "id": "n",
+          "type": "int",
+          "line": 2
+        },
+        {
+          "id": "r",
+          "type": "real",
+          "line": 3
+        },
+        {
+          "id": "l",
+          "type": "logic",
+          "line": 4
+        },
+        {
+          "id": "s",
+          "type": "string",
+          "line": 5
+        }
+      ],
+      "line": 5
+    }
+  ],
+  "line": 5
+}

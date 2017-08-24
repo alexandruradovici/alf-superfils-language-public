@@ -1,0 +1,9 @@
+{
+  "error": "syntax",
+  "line": 6,
+  "text": "=",
+  "token": "=",
+  "expected": [
+    "'IS'"
+  ]
+}

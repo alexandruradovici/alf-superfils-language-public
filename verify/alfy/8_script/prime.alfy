@@ -1,0 +1,19 @@
+{Prime number}
+
+define n => int;
+
+n is valueof read;
+
+define p => logic is true;
+
+for i from 2 to valueof sqrt with number is n parameters step 1 run
+	if n mod i = 0 then
+		p is false;
+	end;
+end;
+
+if p then
+	do write with text is n+" is prime" parameters;
+else
+	do write with text is n+" is not prime" parameters;
+end;

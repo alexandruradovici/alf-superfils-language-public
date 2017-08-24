@@ -1,0 +1,39 @@
+{
+  "type": "script",
+  "statements": [
+    {
+      "type": "struct",
+      "id": "school",
+      "elements": [
+        {
+          "id": "type",
+          "type": "int",
+          "line": 5
+        },
+        {
+          "id": "private",
+          "type": "logic",
+          "line": 4
+        },
+        {
+          "id": "name",
+          "type": "string",
+          "line": 3
+        }
+      ],
+      "line": 6
+    },
+    {
+      "type": "define",
+      "elements": [
+        {
+          "id": "s",
+          "type": "school",
+          "line": 8
+        }
+      ],
+      "line": 8
+    }
+  ],
+  "line": 8
+}

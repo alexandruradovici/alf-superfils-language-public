@@ -1,0 +1,15 @@
+.PHONY: all clean run pack build-pre build-post
+
+all: build-pre run build-post	
+	
+build-post: 
+
+run: 
+	@cd verify && ./run_all.sh ../main.js
+
+pack:
+	zip -r alfy.zip verify/ Makefile.checker\
+		README.md 
+
+clean:
+	rm -rf verify/output/

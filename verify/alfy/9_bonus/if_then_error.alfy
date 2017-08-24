@@ -1,0 +1,7 @@
+{If then error}
+
+[register P 1]
+
+[if P = 1]
+valueof print with text as "Print text "+P parameters;
+[endif]

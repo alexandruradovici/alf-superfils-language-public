@@ -1,0 +1,12 @@
+{
+  "type": "script",
+  "statements": [
+    {
+      "type": "value",
+      "t": "symbol",
+      "value": "a",
+      "line": 2
+    }
+  ],
+  "line": 2
+}

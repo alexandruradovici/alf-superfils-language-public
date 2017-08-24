@@ -1,0 +1,12 @@
+{
+  "type": "script",
+  "statements": [
+    {
+      "type": "value",
+      "t": "real",
+      "value": 45.5,
+      "line": 1
+    }
+  ],
+  "line": 1
+}

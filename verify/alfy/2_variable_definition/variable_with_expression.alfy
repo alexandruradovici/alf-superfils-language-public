@@ -1,0 +1,2 @@
+{Variable definition with expression}
+define e => int is 20+3*5;

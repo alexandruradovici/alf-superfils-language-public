@@ -1,0 +1,5 @@
+{Error}
+
+[register TEXT "This is text"]
+
+do print with text as TEXT parameters;

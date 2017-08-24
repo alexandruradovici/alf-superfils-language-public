@@ -1,0 +1,37 @@
+{
+  "type": "script",
+  "statements": [
+    {
+      "type": "define",
+      "elements": [
+        {
+          "id": "s",
+          "type": "string",
+          "value": {
+            "type": "id",
+            "value": "variable",
+            "line": 5
+          },
+          "line": 5
+        }
+      ],
+      "line": 5
+    },
+    {
+      "type": "valueof",
+      "function": {
+        "id": "print",
+        "library": []
+      },
+      "parameters": {
+        "text": {
+          "type": "id",
+          "value": "s",
+          "line": 7
+        }
+      },
+      "line": 7
+    }
+  ],
+  "line": 8
+}

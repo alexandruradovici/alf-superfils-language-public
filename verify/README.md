@@ -1,8 +1,8 @@
-# ALF Homework 5 - SuperFILS Language
+# ALF Homework 2 - Alfy Language
 
 ## Description
 
-You can find here the public tests for homework 5.
+You can find here the public tests for homework 2.
 
 ## Questions
 

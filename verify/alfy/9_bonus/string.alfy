@@ -1,0 +1,5 @@
+{String}
+
+[register TEXT "This is text"]
+
+do print with text is TEXT parameters;
