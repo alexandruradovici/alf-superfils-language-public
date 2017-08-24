@@ -1,0 +1,2 @@
+<*Variable definition with expression*>
+var e:int <- 20 + 3 * 5

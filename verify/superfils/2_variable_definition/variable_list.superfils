@@ -1,0 +1,5 @@
+<*Variable definition list*>
+var n:int,
+	f:float,
+	b:boolean,
+	s:string

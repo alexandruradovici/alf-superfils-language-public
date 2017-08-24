@@ -1,0 +1,13 @@
+<*Power function*>
+
+function power:int (a:int, n:int) {
+	var p:int <- 1
+	for i, 1 to n, 1 {
+		p <- p * a
+	}
+	return a
+}
+
+var n: <- 0
+
+n <- power -> (a <- 6, n <- 5)

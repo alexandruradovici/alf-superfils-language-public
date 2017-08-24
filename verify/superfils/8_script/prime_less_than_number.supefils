@@ -1,0 +1,23 @@
+<*Prime less then a number*>
+
+function prime:boolean (n:int) {
+	var p:boolean <- true
+
+	for i, 2 to sqrt -> (number <- n), 1 {
+		if n % i = 0 {
+			p <- false
+		}
+	}
+
+	return p
+}
+
+var  v:int
+
+v <- read -> ()
+
+for i, v to 2, -1 {
+	if prime -> (n <- i) {
+		write -> (text <- "The smallest prime number less than " + v + " is " + i)
+	}
+}

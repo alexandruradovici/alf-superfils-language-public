@@ -1,0 +1,3 @@
+<*Use function with parameter*>
+
+print -> (text <- "text to write")

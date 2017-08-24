@@ -1,6 +1,0 @@
-{Function definition with empty value and statements}
-
-define print | text => string as 
-begin 
-	text is "";
-end;

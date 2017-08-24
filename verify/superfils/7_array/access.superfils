@@ -1,0 +1,6 @@
+<*Access element of array*>
+array list:string 1, 9
+
+var v:list
+
+v[5] <- "The new name for the school"

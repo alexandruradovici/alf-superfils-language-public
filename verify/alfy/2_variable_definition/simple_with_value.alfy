@@ -1,2 +1,0 @@
-{Variable definition with value}
-define variable => int is 0;

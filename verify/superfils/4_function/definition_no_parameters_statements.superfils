@@ -1,0 +1,7 @@
+<*Function definition without parameters*>
+
+function say:string {
+	"say1"
+	"say2"
+	"say3"
+}

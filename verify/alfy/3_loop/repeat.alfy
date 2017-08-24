@@ -1,7 +1,0 @@
-{Repeat loop}
-
-define n => int is 0;
-
-repeat 
-	n is n + 1;
-aslongas n < 100;

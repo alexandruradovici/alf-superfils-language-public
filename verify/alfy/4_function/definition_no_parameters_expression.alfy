@@ -1,3 +1,0 @@
-{Function definition without parameters}
-
-define say | value string as "say";

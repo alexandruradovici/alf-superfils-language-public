@@ -1,8 +1,0 @@
-{Variable declaration of type struct}
-struct school
-	define name => string,
-	define private => logic,
-	define type => int
-end;
-
-define s => school;

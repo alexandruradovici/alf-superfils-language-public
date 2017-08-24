@@ -1,0 +1,5 @@
+<*Function definition with empty value and statements*>
+
+function print:(text:string) {
+	text <- ""
+}

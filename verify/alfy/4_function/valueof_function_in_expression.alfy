@@ -1,5 +1,0 @@
-{Use function in expression}
-
-define s => int;
-
-s is valueof sum with x is 50 y is 50 parameters;

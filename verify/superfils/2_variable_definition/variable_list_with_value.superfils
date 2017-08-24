@@ -1,0 +1,5 @@
+<*Variable definition list with value*>
+var n:int <- 3,
+	f:float <- 3.7,
+	b:boolean <- false,
+	s:string <- "string"

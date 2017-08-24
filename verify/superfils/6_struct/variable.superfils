@@ -1,0 +1,8 @@
+<*Variable declaration of type struct*>
+struct school:
+	var name:string,
+	var private:boolean,
+	var type:int
+endstruct
+
+var s:school

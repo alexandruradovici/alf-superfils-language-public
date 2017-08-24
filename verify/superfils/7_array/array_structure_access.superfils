@@ -1,0 +1,12 @@
+<*Array with structure definition*>
+struct school:
+	var name:string,
+	var private:logic,
+	var type:int
+endstruct
+
+array list:school 1, 9
+
+var list_of_schools:list
+
+list_of_schools[1].name <- "School"

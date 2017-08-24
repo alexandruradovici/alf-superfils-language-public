@@ -1,0 +1,28 @@
+{
+  "error": "syntax",
+  "line": 8,
+  "text": "return",
+  "token": "RETURN",
+  "expected": [
+    "'NL'",
+    "'array_assign'",
+    "'('",
+    "'-'",
+    "'!'",
+    "'NUMBER'",
+    "'NULL'",
+    "'STRING_VALUE'",
+    "'SYMBOL'",
+    "'LOGIC_VALUE'",
+    "'IDENTIFIER'",
+    "'VAR'",
+    "'STRUCT'",
+    "'ARRAY'",
+    "'FUNCTION'",
+    "'VALUEOF'",
+    "'IF'",
+    "'WHILE'",
+    "'DO'",
+    "'FOR'"
+  ]
+}

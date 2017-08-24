@@ -1,0 +1,12 @@
+<*Array with structure definition*>
+array list:string 1, 9
+
+var v:list
+
+struct structure:
+	var position:int
+endstruct
+
+var s:structure
+
+v[s.position] <- "The new name for the school"

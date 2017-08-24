@@ -1,5 +1,0 @@
-{Variable definition list}
-define n => int
-	r => real
-	l => logic
-	s => string; 

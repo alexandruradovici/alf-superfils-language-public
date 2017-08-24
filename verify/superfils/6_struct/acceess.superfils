@@ -1,0 +1,10 @@
+<*Access element of struct*>
+struct school:
+	var name:string,
+	var private:boolean,
+	var type:int
+endstruct
+
+var s:school
+
+s.name <- "The new name for the school"

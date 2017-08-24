@@ -1,0 +1,3 @@
+<*Use function with parameter expression*>
+
+print -> (text <- "text"+" "+"to"+" "+"write", additional <- " text ")

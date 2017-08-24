@@ -1,0 +1,10 @@
+<*If Else*>
+
+var n:int
+
+if n > 2 {
+	n <- n + 1
+}
+else {
+	n <- n * 1
+}

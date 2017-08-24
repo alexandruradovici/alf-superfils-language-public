@@ -1,0 +1,19 @@
+<*Event numbers from 1 to 1000*>
+
+var n: <- 2
+
+for n, 2 to 1000, 2 {
+	write -> (text <- n)
+}
+
+while n <= 1000 {
+	write -> (text <- n)
+	n <- n + 2
+}
+
+n <- 2;
+
+do {
+	write -> (text <- n)
+	n <- n + 2
+} while n <= 1000

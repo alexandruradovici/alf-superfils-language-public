@@ -1,0 +1,18 @@
+{
+  "error": "syntax",
+  "line": 2,
+  "text": "int",
+  "token": "TYPE",
+  "expected": [
+    "'('",
+    "'-'",
+    "'!'",
+    "'NUMBER'",
+    "'NULL'",
+    "'STRING_VALUE'",
+    "'SYMBOL'",
+    "'LOGIC_VALUE'",
+    "'IDENTIFIER'",
+    "'VALUEOF'"
+  ]
+}

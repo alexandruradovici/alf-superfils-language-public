@@ -1,0 +1,4 @@
+<*Variable value Attribution*>
+var n:int
+
+n <- 6

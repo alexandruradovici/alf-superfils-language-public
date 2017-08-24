@@ -1,7 +1,0 @@
-{For loop}
-
-define n => int is 0;
-
-for i from 1 to 100 step 1 run 
-	n is n + 1;
-end;

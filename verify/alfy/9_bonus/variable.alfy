@@ -1,7 +1,0 @@
-{Variable}
-
-[register ALFY variable]
-
-define s => string is ALFY;
-
-valueof print with text is s parameters;

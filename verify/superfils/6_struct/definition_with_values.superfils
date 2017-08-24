@@ -1,0 +1,6 @@
+<*Structure definition with values*>
+struct school:
+	var name:string <- "Public Elementary School",
+	var private:boolean <- false,
+	var type:int <- 0
+endstruct

@@ -1,0 +1,6 @@
+<*Structure definition*>
+struct school:
+	var name:string,
+	var private:boolean,
+	var type:int
+endstruct
