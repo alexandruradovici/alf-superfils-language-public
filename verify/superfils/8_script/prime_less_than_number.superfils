@@ -3,7 +3,7 @@
 function prime:boolean (n:int) {
 	var p:boolean <- true
 
-	for i, 2 to sqrt -> (number <- n), 1 {
+	for i, 2 to valueof sqrt -> (number <- n), 1 {
 		if n % i = 0 {
 			p <- false
 		}
@@ -17,7 +17,7 @@ var  v:int
 v <- valueof read -> ()
 
 for i, v to 2, -1 {
-	if prime -> (n <- i) {
+	if valueof prime -> (n <- i) {
 		write -> (text <- "The smallest prime number less than " + v + " is " + i)
 	}
 }
