@@ -1,9 +1,1 @@
-{
-  "error": "syntax",
-  "line": 5,
-  "text": "\n}",
-  "token": "}",
-  "expected": [
-    "'RETURN'"
-  ]
-}
+true

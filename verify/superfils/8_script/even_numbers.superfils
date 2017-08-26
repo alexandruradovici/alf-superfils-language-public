@@ -11,7 +11,7 @@ while n <= 1000 {
 	n <- n + 2
 }
 
-n <- 2;
+n <- 2
 
 do {
 	write -> (text <- n)

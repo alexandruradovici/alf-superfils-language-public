@@ -2,4 +2,4 @@
 
 var s:int
 
-s <- sum -> (x <- 50, y <- 50)
+s <- valueof sum -> (x <- 50, y <- 50)

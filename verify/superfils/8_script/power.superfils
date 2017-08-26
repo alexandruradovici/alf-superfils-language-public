@@ -10,4 +10,4 @@ function power:int (a:int, n:int) {
 
 var n: <- 0
 
-n <- power -> (a <- 6, n <- 5)
+n <- valueof power -> (a <- 6, n <- 5)

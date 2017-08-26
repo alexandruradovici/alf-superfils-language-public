@@ -2,6 +2,6 @@
 
 var n:int <- 0
 
-for i, 1 to 100, 1 { 
-	n = n + 1
+for i, 1 to 100, 1 {
+	n <- n + 1
 }

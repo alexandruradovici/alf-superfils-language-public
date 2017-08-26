@@ -1,9 +1,1 @@
-{
-  "error": "syntax",
-  "line": 3,
-  "text": "endstruct",
-  "token": "ENDSTRUCT",
-  "expected": [
-    "'VAR'"
-  ]
-}
+true

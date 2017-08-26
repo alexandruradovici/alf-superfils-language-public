@@ -3,5 +3,5 @@
 var n:int <- 0
 
 do {
-	n = n + 1
+	n <- n + 1
 } while n < 100

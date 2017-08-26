@@ -3,4 +3,4 @@ array list:string 1, 9
 
 var v:list
 
-v[position -> ()] <- "The new name for the school"
+v[valueof position -> ()] <- "The new name for the school"

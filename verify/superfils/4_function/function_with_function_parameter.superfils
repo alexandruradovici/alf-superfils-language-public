@@ -1,3 +1,3 @@
 <*Function with function parameter*>
 
-print -> (text <- "text"+" "+"to"+" "+"write", number <- math -> (a <- 47821))
+print -> (text <- "text"+" "+"to"+" "+"write", number <- valueof math -> (a <- 47821))

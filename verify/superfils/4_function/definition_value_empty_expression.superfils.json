@@ -1,12 +1,1 @@
-{
-  "error": "syntax",
-  "line": 3,
-  "text": "(",
-  "token": "(",
-  "expected": [
-    "'SYMBOL'",
-    "'IDENTIFIER'",
-    "'ASSIGN'",
-    "'TYPE'"
-  ]
-}
+true

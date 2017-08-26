@@ -1,7 +1,7 @@
 <*Function definition with statements and value*>
 
 
-var sum:int (n1:int, n2:int) {
+function sum:int (n1:int, n2:int) {
 	var s:int <- n1 + n2
 	return s
 }

@@ -1,18 +1,1 @@
-{
-  "error": "syntax",
-  "line": 3,
-  "text": ")",
-  "token": ")",
-  "expected": [
-    "'('",
-    "'-'",
-    "'!'",
-    "'NUMBER'",
-    "'NULL'",
-    "'STRING_VALUE'",
-    "'SYMBOL'",
-    "'LOGIC_VALUE'",
-    "'IDENTIFIER'",
-    "'VALUEOF'"
-  ]
-}
+true

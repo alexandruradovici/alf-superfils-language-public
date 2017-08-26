@@ -4,6 +4,6 @@ var n:int <- 0
 var s:int <- 1
 var max:int <- 2*n
 
-for i, n/2 to max, s { 
-	n = n + 1
+for i, n/2 to max, s {
+	n <- n + 1
 }

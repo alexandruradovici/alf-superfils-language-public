@@ -6,5 +6,9 @@ do
 	do
 		echo $file
 		node main.js $file
+
+		output=$file.json
+		cat $output
+		printf "\n"
 	done
 done
