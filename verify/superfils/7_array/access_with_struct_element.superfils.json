@@ -1,1 +1,77 @@
-true
+{
+  "type": "script",
+  "statements": [
+    {
+      "type": "attribution",
+      "to": {
+        "type": "element_of_array",
+        "array": {
+          "type": "id",
+          "value": "v",
+          "line": 12
+        },
+        "index": {
+          "type": "element_of_struct",
+          "struct": {
+            "type": "id",
+            "value": "s",
+            "line": 12
+          },
+          "element": "position",
+          "line": 12
+        },
+        "line": 12
+      },
+      "from": {
+        "type": "value",
+        "t": "string",
+        "value": "The new name for the school",
+        "line": 12
+      },
+      "line": 12
+    },
+    {
+      "type": "define",
+      "elements": [
+        {
+          "id": "s",
+          "type": "structure",
+          "line": 10
+        }
+      ],
+      "line": 10
+    },
+    {
+      "type": "struct",
+      "id": "structure",
+      "elements": [
+        {
+          "id": "position",
+          "type": "int",
+          "line": 7
+        }
+      ],
+      "line": 8
+    },
+    {
+      "type": "define",
+      "elements": [
+        {
+          "id": "v",
+          "type": "list",
+          "line": 4
+        }
+      ],
+      "line": 4
+    },
+    {
+      "type": "array",
+      "id": "list",
+      "elements_type": "string",
+      "from": "1",
+      "to": "9",
+      "line": 2
+    }
+  ],
+  "line": 12
+}

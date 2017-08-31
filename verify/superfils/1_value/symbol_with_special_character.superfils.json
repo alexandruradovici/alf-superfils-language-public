@@ -1,1 +1,12 @@
-true
+{
+  "type": "script",
+  "statements": [
+    {
+      "type": "value",
+      "t": "symbol",
+      "value": "\"",
+      "line": 3
+    }
+  ],
+  "line": 3
+}

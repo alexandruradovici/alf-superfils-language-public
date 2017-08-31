@@ -1,1 +1,32 @@
-true
+{
+  "type": "script",
+  "statements": [
+    {
+      "type": "define",
+      "elements": [
+        {
+          "id": "n",
+          "type": "int",
+          "line": 2
+        },
+        {
+          "id": "f",
+          "type": "float",
+          "line": 3
+        },
+        {
+          "id": "b",
+          "type": "boolean",
+          "line": 4
+        },
+        {
+          "id": "s",
+          "type": "string",
+          "line": 5
+        }
+      ],
+      "line": 5
+    }
+  ],
+  "line": 5
+}

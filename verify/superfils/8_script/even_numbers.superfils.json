@@ -1,1 +1,203 @@
-true
+{
+  "type": "script",
+  "statements": [
+    {
+      "type": "do_while",
+      "expression": {
+        "type": "expression",
+        "op": "<=",
+        "left": {
+          "type": "id",
+          "value": "n",
+          "line": 19
+        },
+        "right": {
+          "type": "value",
+          "t": "int",
+          "value": 1000,
+          "line": 19
+        },
+        "line": 19
+      },
+      "statements": [
+        {
+          "type": "attribution",
+          "to": {
+            "type": "id",
+            "value": "n",
+            "line": 18
+          },
+          "from": {
+            "type": "expression",
+            "op": "+",
+            "left": {
+              "type": "id",
+              "value": "n",
+              "line": 18
+            },
+            "right": {
+              "type": "value",
+              "t": "int",
+              "value": 2,
+              "line": 18
+            },
+            "line": 18
+          },
+          "line": 18
+        },
+        {
+          "type": "valueof",
+          "function": {
+            "id": "write",
+            "library": []
+          },
+          "parameters": {
+            "text": {
+              "type": "id",
+              "value": "n",
+              "line": 17
+            }
+          },
+          "line": 17
+        }
+      ],
+      "line": 19
+    },
+    {
+      "type": "attribution",
+      "to": {
+        "type": "id",
+        "value": "n",
+        "line": 14
+      },
+      "from": {
+        "type": "value",
+        "t": "int",
+        "value": 2,
+        "line": 14
+      },
+      "line": 14
+    },
+    {
+      "type": "while",
+      "expression": {
+        "type": "expression",
+        "op": "<=",
+        "left": {
+          "type": "id",
+          "value": "n",
+          "line": 9
+        },
+        "right": {
+          "type": "value",
+          "t": "int",
+          "value": 1000,
+          "line": 9
+        },
+        "line": 9
+      },
+      "statements": [
+        {
+          "type": "attribution",
+          "to": {
+            "type": "id",
+            "value": "n",
+            "line": 11
+          },
+          "from": {
+            "type": "expression",
+            "op": "+",
+            "left": {
+              "type": "id",
+              "value": "n",
+              "line": 11
+            },
+            "right": {
+              "type": "value",
+              "t": "int",
+              "value": 2,
+              "line": 11
+            },
+            "line": 11
+          },
+          "line": 11
+        },
+        {
+          "type": "valueof",
+          "function": {
+            "id": "write",
+            "library": []
+          },
+          "parameters": {
+            "text": {
+              "type": "id",
+              "value": "n",
+              "line": 10
+            }
+          },
+          "line": 10
+        }
+      ],
+      "line": 12
+    },
+    {
+      "type": "for",
+      "variable": "n",
+      "from": {
+        "type": "value",
+        "t": "int",
+        "value": 2,
+        "line": 5
+      },
+      "direction": "to",
+      "to": {
+        "type": "value",
+        "t": "int",
+        "value": 1000,
+        "line": 5
+      },
+      "step": {
+        "type": "value",
+        "t": "int",
+        "value": 2,
+        "line": 5
+      },
+      "statements": [
+        {
+          "type": "valueof",
+          "function": {
+            "id": "write",
+            "library": []
+          },
+          "parameters": {
+            "text": {
+              "type": "id",
+              "value": "n",
+              "line": 6
+            }
+          },
+          "line": 6
+        }
+      ],
+      "line": 7
+    },
+    {
+      "type": "define",
+      "elements": [
+        {
+          "id": "n",
+          "type": "",
+          "value": {
+            "type": "value",
+            "t": "int",
+            "value": 2,
+            "line": 3
+          },
+          "line": 3
+        }
+      ],
+      "line": 3
+    }
+  ],
+  "line": 19
+}

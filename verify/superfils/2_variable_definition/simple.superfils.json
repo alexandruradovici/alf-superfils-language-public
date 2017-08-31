@@ -1,1 +1,17 @@
-true
+{
+  "type": "script",
+  "statements": [
+    {
+      "type": "define",
+      "elements": [
+        {
+          "id": "variable",
+          "type": "int",
+          "line": 2
+        }
+      ],
+      "line": 2
+    }
+  ],
+  "line": 2
+}

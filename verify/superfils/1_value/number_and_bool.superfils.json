@@ -1,1 +1,18 @@
-true
+{
+  "type": "script",
+  "statements": [
+    {
+      "type": "value",
+      "t": "boolean",
+      "value": false,
+      "line": 4
+    },
+    {
+      "type": "value",
+      "t": "int",
+      "value": 758234,
+      "line": 3
+    }
+  ],
+  "line": 4
+}

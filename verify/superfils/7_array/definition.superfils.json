@@ -1,1 +1,14 @@
-true
+{
+  "type": "script",
+  "statements": [
+    {
+      "type": "array",
+      "id": "list",
+      "elements_type": "string",
+      "from": "1",
+      "to": "9",
+      "line": 3
+    }
+  ],
+  "line": 3
+}

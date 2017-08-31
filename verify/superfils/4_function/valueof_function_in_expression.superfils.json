@@ -1,1 +1,48 @@
-true
+{
+  "type": "script",
+  "statements": [
+    {
+      "type": "attribution",
+      "to": {
+        "type": "id",
+        "value": "s",
+        "line": 5
+      },
+      "from": {
+        "type": "valueof",
+        "function": {
+          "id": "sum",
+          "library": []
+        },
+        "parameters": {
+          "x": {
+            "type": "value",
+            "t": "int",
+            "value": 50,
+            "line": 5
+          },
+          "y": {
+            "type": "value",
+            "t": "int",
+            "value": 50,
+            "line": 5
+          }
+        },
+        "line": 5
+      },
+      "line": 5
+    },
+    {
+      "type": "define",
+      "elements": [
+        {
+          "id": "s",
+          "type": "int",
+          "line": 3
+        }
+      ],
+      "line": 3
+    }
+  ],
+  "line": 5
+}

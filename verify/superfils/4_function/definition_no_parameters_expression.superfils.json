@@ -1,1 +1,9 @@
-true
+{
+  "error": "syntax",
+  "line": 3,
+  "text": "\"say\"",
+  "token": "STRING_VALUE",
+  "expected": [
+    "'IDENTIFIER'"
+  ]
+}

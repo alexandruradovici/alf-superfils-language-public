@@ -11,7 +11,7 @@
     "'NULL'",
     "'STRING_VALUE'",
     "'SYMBOL'",
-    "'LOGIC_VALUE'",
+    "'BOOLEAN_VALUE'",
     "'IDENTIFIER'",
     "'VALUEOF'"
   ]

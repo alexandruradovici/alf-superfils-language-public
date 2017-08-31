@@ -1,1 +1,41 @@
-true
+{
+  "type": "script",
+  "statements": [
+    {
+      "type": "define_function",
+      "id": "sum",
+      "parameters": [
+        {
+          "id": "n1",
+          "type": "int",
+          "line": 3
+        },
+        {
+          "id": "n2",
+          "type": "int",
+          "line": 3
+        }
+      ],
+      "value_type": "int",
+      "statements": [
+        {
+          "type": "expression",
+          "op": "+",
+          "left": {
+            "type": "id",
+            "value": "n1",
+            "line": 4
+          },
+          "right": {
+            "type": "id",
+            "value": "n2",
+            "line": 4
+          },
+          "line": 4
+        }
+      ],
+      "line": 5
+    }
+  ],
+  "line": 5
+}

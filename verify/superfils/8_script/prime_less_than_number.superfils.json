@@ -1,1 +1,256 @@
-true
+{
+  "type": "script",
+  "statements": [
+    {
+      "type": "for",
+      "variable": "i",
+      "from": {
+        "type": "id",
+        "value": "v",
+        "line": 19
+      },
+      "direction": "to",
+      "to": {
+        "type": "value",
+        "t": "int",
+        "value": 2,
+        "line": 19
+      },
+      "step": {
+        "type": "expression",
+        "op": "negative",
+        "value": {
+          "type": "value",
+          "t": "int",
+          "value": 1,
+          "line": 19
+        },
+        "line": 19
+      },
+      "statements": [
+        {
+          "type": "if",
+          "expression": {
+            "type": "valueof",
+            "function": {
+              "id": "prime",
+              "library": []
+            },
+            "parameters": {
+              "n": {
+                "type": "id",
+                "value": "i",
+                "line": 20
+              }
+            },
+            "line": 20
+          },
+          "then": [
+            {
+              "type": "valueof",
+              "function": {
+                "id": "write",
+                "library": []
+              },
+              "parameters": {
+                "text": {
+                  "type": "expression",
+                  "op": "+",
+                  "left": {
+                    "type": "expression",
+                    "op": "+",
+                    "left": {
+                      "type": "expression",
+                      "op": "+",
+                      "left": {
+                        "type": "value",
+                        "t": "string",
+                        "value": "The smallest prime number less than ",
+                        "line": 21
+                      },
+                      "right": {
+                        "type": "id",
+                        "value": "v",
+                        "line": 21
+                      },
+                      "line": 21
+                    },
+                    "right": {
+                      "type": "value",
+                      "t": "string",
+                      "value": " is ",
+                      "line": 21
+                    },
+                    "line": 21
+                  },
+                  "right": {
+                    "type": "id",
+                    "value": "i",
+                    "line": 21
+                  },
+                  "line": 21
+                }
+              },
+              "line": 21
+            }
+          ],
+          "line": 22
+        }
+      ],
+      "line": 23
+    },
+    {
+      "type": "attribution",
+      "to": {
+        "type": "id",
+        "value": "v",
+        "line": 17
+      },
+      "from": {
+        "type": "valueof",
+        "function": {
+          "id": "read",
+          "library": []
+        },
+        "parameters": [],
+        "line": 17
+      },
+      "line": 17
+    },
+    {
+      "type": "define",
+      "elements": [
+        {
+          "id": "v",
+          "type": "int",
+          "line": 15
+        }
+      ],
+      "line": 15
+    },
+    {
+      "type": "define_function",
+      "id": "prime",
+      "parameters": [
+        {
+          "id": "n",
+          "type": "int",
+          "line": 3
+        }
+      ],
+      "value_type": "boolean",
+      "statements": [
+        {
+          "type": "value_of_function",
+          "value": {
+            "type": "id",
+            "value": "p",
+            "line": 12
+          },
+          "line": 12
+        },
+        {
+          "type": "for",
+          "variable": "i",
+          "from": {
+            "type": "value",
+            "t": "int",
+            "value": 2,
+            "line": 6
+          },
+          "direction": "to",
+          "to": {
+            "type": "valueof",
+            "function": {
+              "id": "sqrt",
+              "library": []
+            },
+            "parameters": {
+              "number": {
+                "type": "id",
+                "value": "n",
+                "line": 6
+              }
+            },
+            "line": 6
+          },
+          "step": {
+            "type": "value",
+            "t": "int",
+            "value": 1,
+            "line": 6
+          },
+          "statements": [
+            {
+              "type": "if",
+              "expression": {
+                "type": "expression",
+                "op": "=",
+                "left": {
+                  "type": "expression",
+                  "op": "mod",
+                  "left": {
+                    "type": "id",
+                    "value": "n",
+                    "line": 7
+                  },
+                  "right": {
+                    "type": "id",
+                    "value": "i",
+                    "line": 7
+                  },
+                  "line": 7
+                },
+                "right": {
+                  "type": "value",
+                  "t": "int",
+                  "value": 0,
+                  "line": 7
+                },
+                "line": 7
+              },
+              "then": [
+                {
+                  "type": "attribution",
+                  "to": {
+                    "type": "id",
+                    "value": "p",
+                    "line": 8
+                  },
+                  "from": {
+                    "type": "value",
+                    "t": "boolean",
+                    "value": false,
+                    "line": 8
+                  },
+                  "line": 8
+                }
+              ],
+              "line": 9
+            }
+          ],
+          "line": 10
+        },
+        {
+          "type": "define",
+          "elements": [
+            {
+              "id": "p",
+              "type": "boolean",
+              "value": {
+                "type": "value",
+                "t": "boolean",
+                "value": true,
+                "line": 4
+              },
+              "line": 4
+            }
+          ],
+          "line": 4
+        }
+      ],
+      "line": 13
+    }
+  ],
+  "line": 23
+}

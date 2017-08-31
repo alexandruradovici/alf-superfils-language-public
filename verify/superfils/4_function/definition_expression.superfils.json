@@ -1,1 +1,11 @@
-true
+{
+  "error": "syntax",
+  "line": 4,
+  "text": "+",
+  "token": "+",
+  "expected": [
+    "'EOF'",
+    "'NL'",
+    "'}'"
+  ]
+}

@@ -1,1 +1,36 @@
-true
+{
+  "type": "script",
+  "statements": [
+    {
+      "type": "define_function",
+      "id": "print",
+      "parameters": [
+        {
+          "id": "text",
+          "type": "string",
+          "line": 3
+        }
+      ],
+      "value_type": "empty",
+      "statements": [
+        {
+          "type": "attribution",
+          "to": {
+            "type": "id",
+            "value": "text",
+            "line": 4
+          },
+          "from": {
+            "type": "value",
+            "t": "string",
+            "value": "",
+            "line": 4
+          },
+          "line": 4
+        }
+      ],
+      "line": 5
+    }
+  ],
+  "line": 5
+}

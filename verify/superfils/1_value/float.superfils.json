@@ -1,1 +1,12 @@
-true
+{
+  "type": "script",
+  "statements": [
+    {
+      "type": "value",
+      "t": "float",
+      "value": 45.5,
+      "line": 1
+    }
+  ],
+  "line": 1
+}

@@ -1,1 +1,56 @@
-true
+{
+  "type": "script",
+  "statements": [
+    {
+      "type": "define",
+      "elements": [
+        {
+          "id": "n",
+          "type": "int",
+          "value": {
+            "type": "value",
+            "t": "int",
+            "value": 3,
+            "line": 2
+          },
+          "line": 2
+        },
+        {
+          "id": "f",
+          "type": "float",
+          "value": {
+            "type": "value",
+            "t": "float",
+            "value": 3.7,
+            "line": 3
+          },
+          "line": 3
+        },
+        {
+          "id": "b",
+          "type": "boolean",
+          "value": {
+            "type": "value",
+            "t": "boolean",
+            "value": false,
+            "line": 4
+          },
+          "line": 4
+        },
+        {
+          "id": "s",
+          "type": "string",
+          "value": {
+            "type": "value",
+            "t": "string",
+            "value": "string",
+            "line": 5
+          },
+          "line": 5
+        }
+      ],
+      "line": 5
+    }
+  ],
+  "line": 5
+}
