@@ -1,0 +1,9 @@
+<*For loop with expression reversed*>
+
+var n:int <- 0
+var s:int <- 2
+var max:int <- 2*n
+
+for i, n/2 downto max, s {
+	n <- n + 1
+}
